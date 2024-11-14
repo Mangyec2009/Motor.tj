@@ -16,7 +16,11 @@
     "products": [
         {
             "id": "1",
-            "name": "Akom Original 65",
+            "name": {
+                "en":"Akom Original 65",
+                "ru":"Akom stan"
+
+            },
             "categoryId": "1",
             "img": "",
             "desc": "Accumulator 'Akom Original', 65Ah, 12V, Height: 190mm, Width: 242mm, SC: 470a",
@@ -45,6 +49,10 @@
             "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1080,h_675/https://centralautobody.net/wp-content/uploads/2023/06/2023-06-19_auto-body-regular-maintenance-1080x675.png",
             "desc": "Люки шумо аз кор тамоман баромадаст? Ё ин чиз нодуруст кор карда истодааст? Агане шумоба услугаи соз кардани люкхо штвыашвтащфв",
             "price": "Аз ситуатсия иборат хаст"
+        },
+        {
+            "id": "5",
+            "categoryId": ""
         }
     ]
 }
