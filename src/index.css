@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #FE8800;
+    --Primary_outlined: #FEAE00;
+    --Secondary_outlined: #E2E8F0;
+    --Secondary: #EFF6FF;
+    --textColor: #FE8800;
+    --textWhite: black;
+    --hover: #d37000;
+    --focus: #feae00;
+    --background: #FFFFFF;
+  }
+
+  .dark {
+    --primary: #FE8800;
+    --Primary_outlined: #FEAE00;
+    --Secondary_outlined: #E2E8F0;
+    --Secondary: #EFF6FF;
+    --textColor: #FE8800;
+    --textWhite: #FFFFFF;
+    --hover: #d37000;
+    --focus: #feae00;
+    --background: #000000;
+  }
+}
+
+@layer utilities {
+  .border-Primary_outlined {
+    border: 2px solid var(--Primary_outlined);
+  }
+
+  .text-textWhite {
+    color: var(--textWhite);
+  }
+  
+  body {
+    @apply bg-background text-textWhite;
+  }
+}

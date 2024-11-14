@@ -17,7 +17,7 @@ const SearchBar = () => {
         value={query}
         onChange={handleChange}
         placeholder="Search..."
-        className="search-input"
+        className="search-input bg-background"
       />
       <button className='bg-black text-white'>Поиск</button>
     </div>
