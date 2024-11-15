@@ -18,8 +18,9 @@
             "id": "1",
             "name": {
                 "en":"Akom Original 65",
-                "ru":"Akom stan"
-
+                "ru":"Аккумулятор оригинал",
+                "tj":"Аккумулатор оригинал таджик"
+                
             },
             "categoryId": "1",
             "img": "",
@@ -29,7 +30,11 @@
         {
             "id": "2",
             "categoryId": "1",
-            "name": "Akom 65 BRAVO",
+            "name": {
+                "en": "Akom 65 BRAVO",
+                "ru": "Аком 65 браво",
+                "tj": "акрагкра"
+            },
             "img": "https://uralakb.ru/netcat_files/multifile/656/201/preview_BRAVO_55.png",
             "desc": "Яке аз зуртаринои аккумуляторхои мошинхои сабукрав. Ин Аком 65 'BRAVO' шасту панч (65) Ампер-час дорад (65Ah) ",
             "price": "730"
@@ -37,7 +42,10 @@
         {
             "id": "3",
             "categoryId": "3",
-            "name": "Front-bumper for Lexus F-Sport RX-350 restyle edition",
+            "name": {
+                "en": "Front-bumper for Lexus F-Sport RX-350 restyle edition",
+                "ru": "Передний бампер для лексус ф-спорт рх-350"
+            },
             "img": "https://dd-tuning.lt/assets/galleries/65082/920/ws7_5015fk.jpg",
             "desc": "This front bump can give you better aerodynamics and make your car a much more beautiful.",
             "price": "3000"
@@ -45,14 +53,10 @@
         {
             "id": "4",
             "categoryId": "2",
-            "name": "Соз кардани люкхо",
+            "name": {"en": "Соз кардани люкхо", "ru": "Ремонт люков"},
             "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1080,h_675/https://centralautobody.net/wp-content/uploads/2023/06/2023-06-19_auto-body-regular-maintenance-1080x675.png",
             "desc": "Люки шумо аз кор тамоман баромадаст? Ё ин чиз нодуруст кор карда истодааст? Агане шумоба услугаи соз кардани люкхо штвыашвтащфв",
             "price": "Аз ситуатсия иборат хаст"
-        },
-        {
-            "id": "5",
-            "categoryId": ""
         }
     ]
 }

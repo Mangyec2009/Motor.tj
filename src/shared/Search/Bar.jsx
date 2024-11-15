@@ -19,7 +19,7 @@ const SearchBar = () => {
         placeholder="Search..."
         className="search-input bg-background"
       />
-      <button className='bg-black text-white'>Поиск</button>
+      <button className='bg-black text-white py-[10px] text-[15px] rounded-[10px] px-[20px]'>Поиск</button>
     </div>
   );
 }

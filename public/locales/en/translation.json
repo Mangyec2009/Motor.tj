@@ -1,8 +1,10 @@
 {
-    "Example":{
-         "1": "About",
-         "2": "Translate",
-         "3": "Trial"
-         
+    "Example": {
+        "about": "About Us",
+        "2": "",
+        "3": "A huge selection of car parts for various car brands. Our priority is Lexus (Toyota).",
+        "4": "Chip/engine tuning options, as well as quality guarantees and power testing upon the owner's request.",
+        "5": "Choose the best parts for styling your iron friend. It will definitely catch the attention of both men and women ;)",
+        "6": "We employ only professionals. Only the best. Only for you."
     }
 }
