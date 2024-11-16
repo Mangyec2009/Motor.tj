@@ -1,62 +1,334 @@
 {
-    "category": [
-        {
-            "id": "1",
-            "name": "Аккумулятор"
-        },
-        {
-            "id": "2",
-            "name": "Услуги"
-        },
-        {
-            "id": "3",
-            "name": "Аксессуары и внешний тюнинг"
+  "category": [
+      {
+          "id": "1",
+          "name": {
+              "en": "Accumulators",
+              "ru": "Аккумуляторы",
+              "tj": "Аккумуляторхо"
+          }
+      },
+      {
+          "id": "2",
+          "name": {
+              "en": "Services",
+              "ru": "Услуги",
+              "tj": "Хизматрасонӣ"
+          }
+      },
+      {
+          "id": "3",
+          "name": {
+              "en": "Accessories and Styling/Tuning",
+              "ru": "Аксессуары и внешний тюнинг",
+              "tj": "Лавозимот ва тюнинг"
+          }
+      },
+      {
+        "id": "4",
+        "name": {
+          "en": "Wheels",
+          "ru": "Диски",
+          "tj": "Дискҳо"
         }
-    ],
-    "products": [
-        {
-            "id": "1",
-            "name": {
-                "en":"Akom Original 65",
-                "ru":"Аккумулятор оригинал",
-                "tj":"Аккумулатор оригинал таджик"
-                
-            },
-            "categoryId": "1",
-            "img": "",
-            "desc": "Accumulator 'Akom Original', 65Ah, 12V, Height: 190mm, Width: 242mm, SC: 470a",
-            "price": "123"
+      },
+      {
+          "id": "5",
+          "name": {
+              "en": "Original Accessories",
+              "ru": "Оригинальные аксессуары",
+              "tj": "Аксессуарҳои аслӣ"
+          }
+      }
+  ],
+  "products": [
+      {
+          "id": "1",
+          "name": {
+              "en": "Akom Original 65",
+              "ru": "Аккумулятор оригинал",
+              "tj": "Аккумулатор таджик"
+          },
+          "categoryId": "1",
+          "img": "https://akom.market/upload/iblock/234/13lfaw733hsbjgycpckd9d7vz1bqhp36.jpg",
+          "desc": {
+              "en": "Akom Original 65, a reliable 65Ah 12V car battery with dimensions: Height 190mm, Width 242mm, SC: 470A.",
+              "ru": "Akom Original 65 — надежный автомобильный аккумулятор емкостью 65Ah, 12V. Размеры: высота 190мм, ширина 242мм, SC: 470A.",
+              "tj": "Akom Original 65 — батарея барои мошин бо 65Ah ва 12V. Баландӣ: 190мм, паҳно: 242мм, SC: 470A."
+          },
+          "price": "123"
+      },
+      {
+          "id": "2",
+          "categoryId": "1",
+          "name": {
+              "en": "Akom 65 BRAVO",
+              "ru": "Аком 65 Браво",
+              "tj": "Аком 65 Браво"
+          },
+          "img": "https://uralakb.ru/netcat_files/multifile/656/201/preview_BRAVO_55.png",
+          "desc": {
+              "en": "Akom 65 BRAVO, a powerful car battery with 65Ah capacity, designed for optimal vehicle performance.",
+              "ru": "Akom 65 BRAVO — мощный автомобильный аккумулятор емкостью 65Ah, разработанный для оптимальной работы автомобиля.",
+              "tj": "Akom 65 BRAVO — батареяи пурқувват барои мошин бо иқтидори 65Ah, ки барои кори беҳтарини мошин таҳия шудааст."
+          },
+          "price": "730"
+      },
+      {
+          "id": "3",
+          "categoryId": "3",
+          "name": {
+              "en": "Front-bumper for Lexus F-Sport RX-350 restyle edition",
+              "ru": "Передний бампер для лексус ф-спорт рх-350 рестайлиновый",
+              "tj": "Бампери пеши Lexus Rx-350 рестайлинг"
+          },
+          "img": "https://dd-tuning.lt/assets/galleries/65082/920/ws7_5015fk.jpg",
+          "desc": {
+              "en": "Front bumper for Lexus RX-350 F-Sport Restyle Edition. Enhances aerodynamics and adds elegance to your car.",
+              "ru": "Передний бампер для Lexus RX-350 F-Sport Restyle Edition. Улучшает аэродинамику и добавляет элегантность вашему автомобилю.",
+              "tj": "Бампери пеши Lexus RX-350 F-Sport Restyle Edition. Аэродинамикаро беҳтар мекунад ва мошинро зеботар месозад."
+          },
+          "price": "3000"
+      },
+      {
+          "id": "4",
+          "categoryId": "2",
+          "name": {
+              "en": "Repairing hatches",
+              "ru": "Ремонт люков",
+              "tj": "Соз кардани люкхо"
+          },
+          "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1080,h_675/https://centralautobody.net/wp-content/uploads/2023/06/2023-06-19_auto-body-regular-maintenance-1080x675.png",
+          "desc": {
+              "en": "Repairing damaged or malfunctioning car hatches to restore functionality and appearance.",
+              "ru": "Ремонт поврежденных или неисправных люков автомобилей для восстановления их функциональности и внешнего вида.",
+              "tj": "Соз кардани люкҳои мошин, ки осеб дидаанд ё дуруст кор намекунанд, барои барқарор кардани коршоямӣ ва намуди зоҳирӣ."
+          },
+          "price": "Аз ситуатсия иборат хаст"
+      },
+      {
+          "id": "5",
+          "categoryId": "1",
+          "name": {
+              "en": "Bosch S5 100Ah",
+              "ru": "Bosch S5 100Ah",
+              "tj": "Bosch S5 100Ah"
+          },
+          "img": "https://example.com/bosch_s5.jpg",
+          "desc": {
+              "en": "Bosch S5 car battery with 100Ah capacity and excellent starting power, ideal for high-performance vehicles.",
+              "ru": "Аккумулятор Bosch S5 емкостью 100Ah с отличной пусковой мощностью, идеально подходит для высокопроизводительных автомобилей.",
+              "tj": "Батареяи Bosch S5 бо иқтидори 100Ah, барои мошинҳои пуриқтидор."
+          },
+          "price": "890"
+      },
+      {
+          "id": "6",
+          "categoryId": "3",
+          "name": {
+              "en": "Chrome Side Mirror Covers",
+              "ru": "Хромированные накладки на зеркала",
+              "tj": "Сарпӯшҳои хромӣ барои оинаҳо"
+          },
+          "img": "https://i.ebayimg.com/images/g/hUoAAOxyffZSXkKb/s-l1200.jpg",
+          "desc": {
+              "en": "Stylish chrome side mirror covers to enhance your car's exterior look.",
+              "ru": "Стильные хромированные накладки на зеркала для улучшения внешнего вида вашего автомобиля.",
+              "tj": "Сарпӯшҳои оинаи хромӣ барои зебогии мошин."
+          },
+          "price": "200"
+      },
+      {
+          "id": "7",
+          "categoryId": "2",
+          "name": {
+              "en": "Full Car Polishing Service",
+              "ru": "Полная полировка автомобиля",
+              "tj": "Полировкаи пурраи мошин"
+          },
+          "img": "https://jimscleaning.com.au/wp-content/uploads/2024/02/What-Are-The-Benefits-Of-Car-Polishing-1200x675.jpg",
+          "desc": {
+              "en": "Professional car polishing to restore shine and protect the paintwork.",
+              "ru": "Профессиональная полировка автомобиля для восстановления блеска и защиты краски.",
+              "tj": "Полировкаи касбӣ барои барқарор кардани дурахш ва ҳифзи ранг."
+          },
+          "price": "150"
+      },
+      {
+          "id": "8",
+          "categoryId": "1",
+          "name": {
+              "en": "Varta Blue Dynamic 60Ah",
+              "ru": "Varta Blue Dynamic 60Ah",
+              "tj": "Varta Blue Dynamic 60Ah"
+          },
+          "img": "https://storage.data-varta-automotive.com/resources/images/v20200101/batteries/5954050833132.png",
+          "desc": {
+              "en": "Varta Blue Dynamic 60Ah battery for reliable and long-lasting performance.",
+              "ru": "Аккумулятор Varta Blue Dynamic емкостью 60Ah для надежной и долговечной работы.",
+              "tj": "Батареяи Varta Blue Dynamic бо иқтидори 60Ah, барои кори устувор."
+          },
+          "price": "720"
+      },
+      {
+        "id": "9",
+        "categoryId": "4",
+        "name": {
+          "en": "Alloy Wheels 16 inch",
+          "ru": "Легкосплавные диски 16 дюймов",
+          "tj": "Дискҳои хӯлаӣ 16 инч"
         },
-        {
-            "id": "2",
-            "categoryId": "1",
-            "name": {
-                "en": "Akom 65 BRAVO",
-                "ru": "Аком 65 браво",
-                "tj": "акрагкра"
-            },
-            "img": "https://uralakb.ru/netcat_files/multifile/656/201/preview_BRAVO_55.png",
-            "desc": "Яке аз зуртаринои аккумуляторхои мошинхои сабукрав. Ин Аком 65 'BRAVO' шасту панч (65) Ампер-час дорад (65Ah) ",
-            "price": "730"
+        "img": "https://bombaytyres.com/cdn/shop/files/D22A7254copy..jpg?v=1706367647&width=1946",
+        "desc": {
+          "en": "Durable and stylish 16-inch alloy wheels for better performance and aesthetics.",
+          "ru": "Прочные и стильные легкосплавные диски диаметром 16 дюймов для лучшей производительности и эстетики.",
+          "tj": "Дискҳои устувор ва зебо барои мошинҳои сабук."
         },
-        {
-            "id": "3",
-            "categoryId": "3",
-            "name": {
-                "en": "Front-bumper for Lexus F-Sport RX-350 restyle edition",
-                "ru": "Передний бампер для лексус ф-спорт рх-350"
-            },
-            "img": "https://dd-tuning.lt/assets/galleries/65082/920/ws7_5015fk.jpg",
-            "desc": "This front bump can give you better aerodynamics and make your car a much more beautiful.",
-            "price": "3000"
+        "price": "400"
+      },
+      {
+        "id": "10",
+        "categoryId": "4",
+        "name": {
+          "en": "Steel Wheels 14 inch",
+          "ru": "Стальные диски 14 дюймов",
+          "tj": "Дискҳои пулодии 14 инч"
         },
-        {
-            "id": "4",
-            "categoryId": "2",
-            "name": {"en": "Соз кардани люкхо", "ru": "Ремонт люков"},
-            "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1080,h_675/https://centralautobody.net/wp-content/uploads/2023/06/2023-06-19_auto-body-regular-maintenance-1080x675.png",
-            "desc": "Люки шумо аз кор тамоман баромадаст? Ё ин чиз нодуруст кор карда истодааст? Агане шумоба услугаи соз кардани люкхо штвыашвтащфв",
-            "price": "Аз ситуатсия иборат хаст"
-        }
-    ]
+        "img": "https://cdn4.wheelbasealloys.com/product-images/product-681954_41750_600.jpg",
+        "desc": {
+          "en": "Affordable 14-inch steel wheels, perfect for robust and everyday use.",
+          "ru": "Доступные стальные диски 14 дюймов, идеально подходят для повседневного использования.",
+          "tj": "Дискҳои арзон ва қавӣ барои истифодаи ҳамарӯза."
+        },
+        "price": "200"
+      },
+      {
+        "id": "11",
+        "categoryId": "4",
+        "name": {
+          "en": "Custom Painted Wheels",
+          "ru": "Покрашенные на заказ диски",
+          "tj": "Дискҳои фармоишӣ бо ранг"
+        },
+        "img": "https://rimclinic.com.au/wp-content/uploads/2019/10/custome-demo-2.jpg",
+        "desc": {
+          "en": "Custom-painted wheels for a unique and personalized look for your car.",
+          "ru": "Покрашенные на заказ диски для уникального и персонального стиля вашего автомобиля.",
+          "tj": "Дискҳои бо фармоиши махсус барои намуди махсус."
+        },
+        "price": "500"
+      },
+      {
+        "id": "12",
+        "categoryId": "4",
+        "name": {
+          "en": "Off-road Wheels 17 inch",
+          "ru": "Внедорожные диски 17 дюймов",
+          "tj": "Дискҳои мошинҳои кӯҳӣ 17 инч"
+        },
+        "img": "https://www.gearoffroad.com/wp-content/uploads/2021/10/760BZ_1.png",
+        "desc": {
+          "en": "High-strength 17-inch wheels designed for off-road adventures.",
+          "ru": "Высокопрочные диски 17 дюймов, разработанные для внедорожных поездок.",
+          "tj": "Дискҳои устувор барои мошинҳои кӯҳӣ."
+        },
+        "price": "600"
+      },
+      {
+          "id": "13",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Steering Wheel Cover",
+              "ru": "Оригинальный чехол на руль",
+              "tj": "Сарпӯши аслии рул"
+          },
+          "img": "",
+          "desc": {
+              "en": "Durable and stylish steering wheel cover for a firm grip and elegant look.",
+              "ru": "Прочный и стильный чехол на руль для удобного захвата и элегантного вида.",
+              "tj": "Сарпӯши устувор ва зебо барои рул."
+          },
+          "price": "50"
+      },
+      {
+          "id": "14",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Trunk Organizer",
+              "ru": "Оригинальный органайзер для багажника",
+              "tj": "Органайзери аслии бағоҷ"
+          },
+          "img": "",
+          "desc": {
+              "en": "Original trunk organizer to keep your car storage neat and accessible.",
+              "ru": "Оригинальный органайзер для багажника для упорядоченного хранения вещей.",
+              "tj": "Органайзери аслии бағоҷ барои нигоҳдории шинам."
+          },
+          "price": "100"
+      },
+      {
+          "id": "15",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Mud Flaps",
+              "ru": "Оригинальные брызговики",
+              "tj": "Брызговикҳои аслӣ"
+          },
+          "img": "",
+          "desc": {
+              "en": "Protect your car with durable and efficient original mud flaps.",
+              "ru": "Защитите свой автомобиль с помощью оригинальных прочных брызговиков.",
+              "tj": "Брызговикҳои аслӣ барои муҳофизати мошин."
+          },
+          "price": "80"
+      },
+      {
+          "id": "16",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Roof Rack",
+              "ru": "Оригинальный багажник на крышу",
+              "tj": "Багажники аслии сақф"
+          },
+          "img": "",
+          "desc": {
+              "en": "Sturdy and adjustable original roof rack for extra cargo space.",
+              "ru": "Прочный и регулируемый багажник на крышу для дополнительного места для груза.",
+              "tj": "Багажники аслии сақф барои ҷойи иловагӣ."
+          },
+          "price": "300"
+      },
+      {
+          "id": "17",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Sunshade",
+              "ru": "Оригинальный солнцезащитный экран",
+              "tj": "Экранҳои аслии муҳофиз аз офтоб"
+          },
+          "img": "",
+          "desc": {
+              "en": "Protect your car interior from UV rays with this original sunshade.",
+              "ru": "Защитите салон вашего автомобиля от УФ-лучей с помощью оригинального солнцезащитного экрана.",
+              "tj": "Экранҳои муҳофиз аз офтоб барои салони мошин."
+          },
+          "price": "40"
+      },
+      {
+          "id": "18",
+          "categoryId": "5",
+          "name": {
+              "en": "Original Keychain",
+              "ru": "Оригинальный брелок",
+              "tj": "Брелоки аслӣ"
+          },
+          "img": "",
+          "desc": {
+              "en": "Stylish original keychain to complement your car keys.",
+              "ru": "Стильный оригинальный брелок, дополняющий ваши ключи от автомобиля.",
+              "tj": "Брелоки зебои аслӣ барои калиди мошин."
+          },
+          "price": "20"
+      }
+  ]
 }

@@ -21,27 +21,32 @@ const Layout = () => {
       <Link to={"/"}><img src="public/logo.png" className="w-[150px]" /></Link>
         <SearchBar />
         <Link to={"/contact"}>
+          <div className="flex items-center gap-[10px] font-semibold text-[20px]">
           <div className="w-[35px] h-[35px] bg-card-Primary_outlined rounded-[20px] flex items-center justify-center">
             <PhoneIcon />
           </div>
+          1234
+          </div>
         </Link>
-        <div className=" flex items-center gap-[20px]">
           <Link to={"/about"}>
             <h1>{t('Example.about')}</h1>
           </Link>
-        </div>
         <ModeToggle  />
+        <div>
+        <LanguageIcon />
         <select onChange={(e) => {TranslateClick(e.target.value), setLang(e.target.value)}} value={i18n.language}>
           <option value="en">English</option>
           <option value="ru">Русский</option>
           <option value="tj">Тоҷики</option>
         </select>
+        </div>
 
     </div>
     <div className='max-w-[1280px] m-auto'>
         <Outlet></Outlet>
     </div>
   </ThemeProvider>
+
   </>
 }
 

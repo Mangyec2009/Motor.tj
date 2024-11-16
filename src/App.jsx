@@ -4,6 +4,7 @@ import Layout from './shared/Layout/Layout'
 import Home from './pages/Home/Home'
 import Loading from './shared/Loading/Loading'
 import { About, Contact } from './app/routes/router'
+import ById from './pages/productByid/ById'
 
 const App = () => {
     const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const App = () => {
                     element: <Suspense faalback={<Loading />}>
                         <Contact />
                     </Suspense>
+                },
+                {
+                    path: "products/:id",
+                    element: <ById />
                 }
             ] 
         }

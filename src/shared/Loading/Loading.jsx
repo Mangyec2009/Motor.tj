@@ -1,10 +1,13 @@
+// Loading.js
 import React from "react";
 import "./style.css";
 
 const Loading = () => {
-  return <>
-    <span className="loader"></span>
-  </>
-}
+  return (
+    <div className="loading-container">
+      <span className="loader"></span>
+    </div>
+  );
+};
 
-export default Loading
+export default Loading;
