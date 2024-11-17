@@ -114,7 +114,7 @@
               "ru": "Bosch S5 100Ah",
               "tj": "Bosch S5 100Ah"
           },
-          "img": "https://example.com/bosch_s5.jpg",
+          "img": "https://ih1.redbubble.net/image.5498349460.8099/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
           "desc": {
               "en": "Bosch S5 car battery with 100Ah capacity and excellent starting power, ideal for high-performance vehicles.",
               "ru": "Аккумулятор Bosch S5 емкостью 100Ah с отличной пусковой мощностью, идеально подходит для высокопроизводительных автомобилей.",
@@ -242,7 +242,7 @@
               "ru": "Оригинальный чехол на руль",
               "tj": "Сарпӯши аслии рул"
           },
-          "img": "",
+          "img": "https://ir-3.ozone.ru/s3/multimedia-n/c1000/6428270855.jpg",
           "desc": {
               "en": "Durable and stylish steering wheel cover for a firm grip and elegant look.",
               "ru": "Прочный и стильный чехол на руль для удобного захвата и элегантного вида.",
@@ -258,7 +258,7 @@
               "ru": "Оригинальный органайзер для багажника",
               "tj": "Органайзери аслии бағоҷ"
           },
-          "img": "",
+          "img": "https://ireland.apollo.olxcdn.com/v1/files/6ybevq2vpxwo2-UA/image;s=3024x3512",
           "desc": {
               "en": "Original trunk organizer to keep your car storage neat and accessible.",
               "ru": "Оригинальный органайзер для багажника для упорядоченного хранения вещей.",
@@ -267,20 +267,20 @@
           "price": "100"
       },
       {
-          "id": "15",
-          "categoryId": "5",
-          "name": {
-              "en": "Original Mud Flaps",
-              "ru": "Оригинальные брызговики",
-              "tj": "Брызговикҳои аслӣ"
-          },
-          "img": "",
-          "desc": {
-              "en": "Protect your car with durable and efficient original mud flaps.",
-              "ru": "Защитите свой автомобиль с помощью оригинальных прочных брызговиков.",
-              "tj": "Брызговикҳои аслӣ барои муҳофизати мошин."
-          },
-          "price": "80"
+            "id": "15",
+            "categoryId": "5",
+            "name": {
+                "en": "Car Emblems",
+                "ru": "Шильдики для автомобиля",
+                "tj": "Шильдикҳои мошин"
+            },
+            "img": "https://dobroznak.com/upload/resize_cache/iblock/b9c/800_800_12e0337f02939d839870710a01577f34c/b9c2814fe8e3f2c16f61f8d06bea1c71.jpg",
+            "desc": {
+                "en": "Stylish and durable car emblems to personalize your vehicle.",
+                "ru": "Стильные и долговечные шильдики для персонализации вашего автомобиля.",
+                "tj": "Шильдикҳои услубӣ ва пойдор барои фарқ кардани мошини шумо."
+            },
+            "price": "35"
       },
       {
           "id": "16",
@@ -290,7 +290,7 @@
               "ru": "Оригинальный багажник на крышу",
               "tj": "Багажники аслии сақф"
           },
-          "img": "",
+          "img": "https://backend.nnmotors.ru/uploads/images/blogs/9-4.jpeg",
           "desc": {
               "en": "Sturdy and adjustable original roof rack for extra cargo space.",
               "ru": "Прочный и регулируемый багажник на крышу для дополнительного места для груза.",
@@ -306,7 +306,7 @@
               "ru": "Оригинальный солнцезащитный экран",
               "tj": "Экранҳои аслии муҳофиз аз офтоб"
           },
-          "img": "",
+          "img": "https://www.weather-tech.ru/upload/shop_4/6/6/0/group_660/shop_property_file_660_243.jpg",
           "desc": {
               "en": "Protect your car interior from UV rays with this original sunshade.",
               "ru": "Защитите салон вашего автомобиля от УФ-лучей с помощью оригинального солнцезащитного экрана.",
@@ -322,7 +322,7 @@
               "ru": "Оригинальный брелок",
               "tj": "Брелоки аслӣ"
           },
-          "img": "",
+          "img": "https://matrice-jewellery.com/files/products/kopiya-lexus1-min.800x600w.jpg",
           "desc": {
               "en": "Stylish original keychain to complement your car keys.",
               "ru": "Стильный оригинальный брелок, дополняющий ваши ключи от автомобиля.",

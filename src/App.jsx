@@ -1,10 +1,11 @@
 import React, { Suspense } from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './shared/Layout/Layout'
-import Home from './pages/Home/Home'
 import Loading from './shared/Loading/Loading'
-import { About, Contact } from './app/routes/router'
+import { About, Home } from './app/routes/router'
 import ById from './pages/productByid/ById'
+import "./App.css";
+import AllProducts from './pages/Products/Products'
 
 const App = () => {
     const router = createBrowserRouter([
@@ -27,10 +28,8 @@ const App = () => {
                     </Suspense>
                 },
                 {
-                    path: "contact",
-                    element: <Suspense faalback={<Loading />}>
-                        <Contact />
-                    </Suspense>
+                    path: "products",
+                    element: <AllProducts /> 
                 },
                 {
                     path: "products/:id",

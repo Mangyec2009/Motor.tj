@@ -5,9 +5,16 @@
         "3": "A huge selection of car parts for various car brands. Our priority is Lexus (Toyota).",
         "4": "Chip/engine tuning options, as well as quality guarantees and power testing upon the owner's request.",
         "5": "Choose the best parts for styling your iron friend. It will definitely catch the attention of both men and women ;)",
-        "6": "We employ only professionals. Only better. Only for you."
+        "6": "We employ only professionals. Only better. Only for you.",
+        "7": "All Products"
     },
     "Inputs": {
         "head": "Search..."
+    },
+    "btn": {
+        "1": "All parts",
+        "2": "To tuning",
+        "3": "To styling",
+        "4": "Feedbacks" 
     }
 }

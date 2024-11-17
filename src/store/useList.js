@@ -33,6 +33,17 @@ export const useList = create((set, get) => ({
         } catch (error) {
             console.error(error);
         }
-    }
+    },
+    el: {},
+    getById: async (id) => {
+        try {
+            let {data} = await axios.get(`${url1}/${id}`);
+            set({el: data});
+        } catch (error) {
+            
+        }
+    },
+    search: "",
+    setSearch: (value) => set((state) => ({search:value}))
 
 }))
