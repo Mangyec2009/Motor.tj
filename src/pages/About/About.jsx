@@ -1,9 +1,10 @@
 import React from 'react'
+import "@/i18n";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
+  return <>
+    <div></div>      
+  </>
 }
 
 export default About

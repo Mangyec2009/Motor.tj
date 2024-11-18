@@ -1,6 +1,6 @@
 import { useList } from "@/store/useList";
 import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const ById = () => {
   let lang = localStorage.getItem("lang");
@@ -30,9 +30,11 @@ const ById = () => {
           {el.desc?.[lang] || "Description not available."}
         </p>
         <div className="mt-6">
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
-            Learn More
-          </button>
+          <a href="https://t.me/WardenMin">
+            <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
+              Get in Click
+            </button>
+          </a>
         </div>
           {el.price}
       </div>

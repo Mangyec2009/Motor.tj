@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
-import LanguageIcon from '@mui/icons-material/Language';
-import SearchBar from '../Search/Bar';
-import PhoneIcon from '@mui/icons-material/Phone';
 import { ThemeProvider } from '@/components/theme-provider';
+import LanguageIcon from '@mui/icons-material/Language';
 import { ModeToggle } from '@/components/mode-toogle';
+import PhoneIcon from '@mui/icons-material/Phone';
+import { Link, Outlet } from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
-import "@/i18n";
 import { useList } from '@/store/useList';
+import SearchBar from '../Search/Bar';
 import Menu from './Drawer';
+import React from 'react'
+import "@/i18n";
 
 const Layout = () => {
   const {t, i18n} = useTranslation();
@@ -59,7 +59,7 @@ const Layout = () => {
     </div>
     <footer className="bg-card-Primary_outlined text-white py-4">
       <div className="flex justify-between items-center px-6 max-w-[1280px] m-auto">
-        <h1 className="text-sm">© 2024 Beeyor. Все права защищены.</h1>
+        <h1 className="text-sm">© 2024 Motor. {t('Example.footer')}</h1>
         <div className="flex items-center gap-4">
           <Link to={"https://www.instagram.com/drifter_2022/"}>
             <img
