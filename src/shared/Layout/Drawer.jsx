@@ -10,7 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import { MenuIcon } from 'lucide-react';
+import { MenuIcon, ShoppingCartIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import "@/i18n";
 import AppsIcon from '@mui/icons-material/Apps';
@@ -56,6 +56,13 @@ export default function Menu() {
             </ListItemButton>
           </ListItem>
         </Link>
+      </List>
+      <List>
+        <ListItem>
+          <Link to={"/cart"}>
+            <ShoppingCartIcon />
+          </Link>
+        </ListItem>
       </List>
     </Box>
   );

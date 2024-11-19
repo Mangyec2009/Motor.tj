@@ -44,6 +44,31 @@ export const useList = create((set, get) => ({
         }
     },
     search: "",
-    setSearch: (value) => set((state) => ({search:value}))
+    setSearch: (value) => set((state) => ({search:value})),
+   carts: JSON.parse(localStorage.getItem("cart")) || [],  
+    plusCart: (id) => {
+        let carts = get().carts;
+        let inc = carts.map((oldElem) => {
+            if(id == oldElem.id){
+                oldElem.cnt++
+            }
+            return oldElem
+        })
+        set({carts:inc});
+        localStorage.setItem("cart", JSON.stringify(inc));
+    },
+    minusCart: (id) => {
+        const carts = get()
+          .carts.map((item) =>
+            item.id === id ? { ...item, cnt: item.cnt - 1 } : item
+          )
+          .filter((item) => item.cnt > 0);
+        set({carts});
+        localStorage.setItem("cart", JSON.stringify(carts));
+    },
+    getTotalPrice: () => {
+        const carts = get().carts;
+        return carts.reduce((total, item) => total + item.cnt * item.price, 0);
+    }
 
 }))

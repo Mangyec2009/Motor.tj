@@ -1,3 +1,4 @@
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { ThemeProvider } from '@/components/theme-provider';
 import LanguageIcon from '@mui/icons-material/Language';
 import { ModeToggle } from '@/components/mode-toogle';
@@ -18,7 +19,7 @@ const Layout = () => {
   let {setLang} = useList();
   return <>
   <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-    <header className="max-w-[1280px] m-auto py-[20px] px-[10px] flex items-center justify-between ">
+    <header className="max-w-[1280px]  m-auto py-[20px] px-[10px] flex items-center justify-between ">
       <div className="flex items-center gap-[30px]">
         <Link to={"/"}><img src="public/logo.png" className="w-[150px] md:relative md:z-10 md:w-[300px] md:scale-150 md:left-3" /></Link>
           <div className="sm:hidden">
@@ -38,6 +39,11 @@ const Layout = () => {
           <Link to={"/about"}>
             <h1 className="md:hidden">{t('Example.about')}</h1>
           </Link>
+          <div className='md:hidden'>
+            <Link to={"/cart"}>
+              <ShoppingCartIcon />
+            </Link>
+          </div>
         <div className="flex items-center border-[2px] rounded p-[2px] border-transparent dark:border-blue-400">
           <div className="dark:text-blue-400">
             <LanguageIcon />

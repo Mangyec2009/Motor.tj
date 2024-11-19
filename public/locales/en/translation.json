@@ -5,10 +5,18 @@
         "3": "A huge selection of car parts for various car brands. Our priority is Lexus (Toyota).",
         "4": "Chip/engine tuning options, as well as quality guarantees and power testing upon the owner's request.",
         "5": "Choose the best parts for styling your iron friend. It will definitely catch the attention of both men and women ;)",
-        "6": "We employ only professionals. Only better. Only for you.",
+        "6": "We employ only professionals. Only the best. Only for you.",
         "7": "All Products",
         "footer": "All rights reserved.",
-        "plus": "Out pluses"
+        "plus": "Our Plus Points",
+        "tst": "Item added to cart!"
+    },
+    "About": {
+        "1": "About Us",
+        "2": "We are your trusted partner in the world of auto parts and body repair. Our store offers a wide range of parts for all car brands, as well as professional services for body repair and enhancement. We understand how important it is for you to keep your car in perfect condition, so we ensure high-quality products and services.",
+        "3": "In our range, you will find original and high-quality analogs of parts for engines, transmissions, suspensions, braking systems, and other components. All products undergo strict quality control, and we guarantee their durability and reliability.",
+        "4": "We also offer body repair services: from removing dents and scratches to full repainting and restoring damaged parts. Our team of experienced specialists uses modern equipment and technologies to give your car a perfect appearance.",
+        "WhereWeAre": "Where We Are"
     },
     "Inputs": {
         "head": "Search..."
@@ -17,12 +25,12 @@
         "1": "All parts",
         "2": "To tuning",
         "3": "To styling",
-        "4": "Feedbacks" 
+        "4": "Feedbacks"
     },
     "Cards": {
         "war": {
             "1": "Warranty Card",
-            "2": "We stand by our products! All purchases are covered for from 2 months to 3 years",
+            "2": "We stand by our products! All purchases are covered from 2 months to 3 years.",
             "3": "Keep your proof of purchase.",
             "4": "Contact us at our",
             "5": "or call +922 551 200 200.",

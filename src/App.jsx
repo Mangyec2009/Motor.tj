@@ -6,6 +6,7 @@ import { About, Home } from './app/routes/router'
 import ById from './pages/productByid/ById'
 import "./App.css";
 import AllProducts from './pages/Products/Products'
+import Cart from './pages/Cart/Cart'
 
 const App = () => {
     const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const App = () => {
                 {
                     path: "products/:id",
                     element: <ById />
+                },
+                {
+                    path: "cart",
+                    element: <Cart />
                 }
             ] 
         }

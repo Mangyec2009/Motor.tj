@@ -20,6 +20,7 @@ const Home = () => {
   let lang = localStorage.getItem("lang");
   const [activeTab, setActiveTab] = useState(null);
   let {data, getUsers, cat, getCat, sortCat} = useList();
+
   useEffect(() => {
     getUsers();
     getCat();
@@ -88,8 +89,8 @@ const Home = () => {
             style={{
               backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('public/Swiper2.jpg')",
               backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}            
+              backgroundPosition: "center"
+            }}        
             >
             <div className="w-1/2 ml-[50px] mt-[100px] p-[15px] ">
               <h1 className="text-4xl md:text-xl font-bold text-white ">
@@ -251,8 +252,22 @@ const Home = () => {
     </div>
   </Card>
 </div>
-
+      {/* {carts.map((el) => {
+        return <div>
+            <h1>{el?.name?.[lang]}</h1>
+            <p>{el.desc?.[lang]}</p>
+        </div>
+      })} */}
   </>
 }
-
+// function getCart(data) {
+// cart.innerHTML = ""
+// data.forEach((el) => {
+// const productName = document.createElement("p")
+// const cnt = document.createElement("p")
+// cnt.innerHTML = el.cnt
+// productName.innerHTML = el.name
+// cart.append(productName, cnt)
+// })
+// }
 export default Home
