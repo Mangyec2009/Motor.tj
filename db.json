@@ -329,6 +329,87 @@
               "tj": "Брелоки зебои аслӣ барои калиди мошин."
           },
           "price": "20"
+      },
+      {
+        "id": "19",
+        "categoryId": "1",
+        "name": {
+          "en": "Exide Premium 70Ah",
+          "ru": "Exide Premium 70Ah",
+          "tj": "Exide Premium 70Ah"
+        },
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfp787Pi93xR16ZWE7VQdbMk2ih7cJD2-rkw&s",
+        "desc": {
+          "en": "Exide Premium car battery with 70Ah capacity and enhanced starting power.",
+          "ru": "Аккумулятор Exide Premium емкостью 70Ah с увеличенной пусковой мощностью.",
+          "tj": "Батареяи Exide Premium бо иқтидори 70Ah ва қувваи иловагӣ."
+        },
+        "price": "800"
+      },
+      {
+        "id": "20",
+        "categoryId": "3",
+        "name": {
+          "en": "Sport Exhaust Tip",
+          "ru": "Спортивная насадка на глушитель",
+          "tj": "Насадкаи спортӣ барои глушитель"
+        },
+        "img": "https://cdn11.bigcommerce.com/s-zhcntr90b1/images/stencil/1280x1280/products/182/3116/Double_Sport_Exhaust_Tip_Fits_All_Models__42434.1628752265.jpg",
+        "desc": {
+          "en": "A sporty exhaust tip designed to enhance the sound and look of your vehicle.",
+          "ru": "Спортивная насадка на глушитель, улучшающая звук и внешний вид автомобиля.",
+          "tj": "Насадкаи спортӣ барои глушитель, ки садо ва намуди мошинро беҳтар мекунад."
+        },
+        "price": "150"
+      },
+      {
+        "id": "21",
+        "categoryId": "4",
+        "name": {
+          "en": "18-inch Racing Wheels",
+          "ru": "Гоночные диски 18 дюймов",
+          "tj": "Дискҳои пойгаи 18 инч"
+        },
+        "img": "https://toptentyres.com.au/cdn/shop/products/BBS18MOTORSPORT.jpg?v=1661485657",
+        "desc": {
+          "en": "Lightweight and high-performance 18-inch racing wheels for track or street use.",
+          "ru": "Легкие и высокопроизводительные гоночные диски диаметром 18 дюймов для трека или улицы.",
+          "tj": "Дискҳои сабук ва босифати пойгаи 18 инч барои истифодаи роҳ ё пойга."
+        },
+        "price": "1000"
+      },
+      {
+        "id": "22",
+        "categoryId": "2",
+        "name": {
+          "en": "Interior Detailing Service",
+          "ru": "Детейлинг интерьера",
+          "tj": "Детейлинги дохилӣ"
+        },
+        "img": "https://st.storeland.ru/6/2516/139/1111.jpg",
+        "desc": {
+          "en": "Comprehensive interior detailing to clean and rejuvenate your car's cabin.",
+          "ru": "Полный детейлинг интерьера для очистки и обновления салона автомобиля.",
+          "tj": "Хидмати пурраи детейлинг барои тоза ва нав кардани дохили мошин."
+        },
+        "price": "200"
+      },
+      {
+        "id": "23",
+        "categoryId": "5",
+        "name": {
+          "en": "Leather Seat Covers",
+          "ru": "Кожаные чехлы на сиденья",
+          "tj": "Сарпӯшҳои чармӣ барои курсӣ"
+        },
+        "img": "https://img.joomcdn.net/ea46a7a4739a7b510cd1b110d3f293e5dc939051_400_400.jpeg",
+        "desc": {
+          "en": "Premium leather seat covers for added comfort and style.",
+          "ru": "Премиальные кожаные чехлы на сиденья для комфорта и стиля.",
+          "tj": "Сарпӯшҳои чармии сифатнок барои роҳат ва услуб."
+        },
+        "price": "500"
       }
+      
   ]
 }

@@ -34,7 +34,7 @@ const Home = () => {
     <Swiper
         autoplay={{
           delay: 4500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         modules={[Autoplay]}
         spaceBetween={50}

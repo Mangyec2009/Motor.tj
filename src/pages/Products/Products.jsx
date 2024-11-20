@@ -6,7 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { useTranslation } from "react-i18next";
 
 const AllProducts = () => {
-  
   let {t} = useTranslation();
   const { search, setSearch, data, getUsers, sortCat } = useList();
   const [activeTab, setActiveTab] = useState(null);
@@ -140,7 +139,7 @@ const AllProducts = () => {
                   <img
                     src={el.img || "/placeholder.jpg"}
                     alt={el.name?.[lang]}
-                    className="w-[170px] h-[150px]"
+                    className="w-full h-[270px]"
                   />
                 </Link>
                 <div className="p-4">

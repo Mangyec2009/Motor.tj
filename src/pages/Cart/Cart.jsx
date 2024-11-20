@@ -1,7 +1,13 @@
 import { useList } from '@/store/useList';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Cart = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const lang = localStorage.getItem("lang") || "en";
   const { carts, plusCart, minusCart, getTotalPrice } = useList();
 
@@ -11,6 +17,7 @@ const Cart = () => {
         <>
           {carts.map((el, index) => (
             <div
+              data-aos="fade-right"
               key={index}
               className="flex items-center md:flex-col gap-6 mt-2 p-4 border border-gray-200 rounded-lg shadow-md"
             >
@@ -44,7 +51,7 @@ const Cart = () => {
                     </button>
                 </div>
                 <h1>
-                    ${el.price}
+                    {el.price}Sm
                 </h1>
               </div>
             </div>
@@ -52,7 +59,7 @@ const Cart = () => {
 
           <div className="mt-4 text-right">
             <h2 className="text-xl font-bold text-gray-800">
-              Total: {getTotalPrice().toFixed(2)} SM
+              Total: {getTotalPrice().toFixed(2)} Sm
             </h2>
           </div>
         </>
