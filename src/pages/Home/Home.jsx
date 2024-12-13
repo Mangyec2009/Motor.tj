@@ -110,6 +110,10 @@ const Home = () => {
           className={`group relative cursor-pointer text-gray-700 dark:text-white ${
             activeTab === 0 ? "text-blue-500" : ""
           }`}
+
+
+
+          // qweqweqweqwe
           onClick={() => {
             setActiveTab(0);
             getCat();
