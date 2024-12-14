@@ -163,7 +163,7 @@ const Home = () => {
         <div
             data-aos="fade-right"
             key={el.id}
-            className="w-[250px] cursor-pointer flex flex-col mt-[10px] bg-white dark:bg-[#191919] rounded-lg shadow-md dark:shadow-blue-400 transition-transform duration-300 overflow-hidden hover:shadow-lg hover:!scale-105"
+            className="w-[250px] cursor-pointer flex flex-col mt-[10px] bg-white dark:bg-[#191919] rounded-lg shadow-md dark:shadow-black transition-transform duration-300 overflow-hidden hover:shadow-lg hover:!scale-105"
           >
           <img
             src={el.img}
