@@ -111,8 +111,6 @@ const Home = () => {
             activeTab === 0 ? "text-blue-500" : ""
           }`}
 
-
-
           // qweqweqweqwe
           onClick={() => {
             setActiveTab(0);
@@ -132,7 +130,7 @@ const Home = () => {
             }`}
           ></span>
         </div>
-      {data.map((el) => (
+      {data?.map((el) => (
         <div
           key={el.id}
           className={`group relative cursor-pointer text-gray-700  dark:text-white ${
@@ -160,7 +158,7 @@ const Home = () => {
     </div>    
 
     <div className="flex w-[90%] m-auto items-center mt-[60px] justify-around flex-wrap gap-[15px] mb-[50px]">
-      {cat.slice(0,8).map((el) => (
+      {cat?.slice(0,8)?.map((el) => (
         <Link to={`/products/${el.id}`}>
         <div
             data-aos="fade-right"
@@ -174,10 +172,10 @@ const Home = () => {
           />
           <div className="p-[10px]">
             <h3 className="text-lg font-semibold text-gray-800">
-              {el.name[lang].length <= 13 ? el.name[lang] : el.name[lang].slice(0, 13) + "..."}
+              {el.name[lang]?.length <= 13 ? el.name[lang] : el.name[lang]?.slice(0, 13) + "..."}
             </h3>
             <p className="text-sm text-gray-600">
-              {el.desc[lang].length <= 35 ? el.desc[lang] : el.desc[lang].slice(0, 35) + "..."}
+              {el.desc[lang]?.length <= 35 ? el.desc?.[lang] : el.desc[lang]?.slice(0, 35) + "..."}
             </p>
           </div>
         </div>

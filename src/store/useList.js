@@ -1,7 +1,7 @@
 import axios from "axios";
 import {create} from "zustand";
-let url = "http://localhost:3000/category";
-let url1 = "http://localhost:3000/products";
+let url = "https://675c0e98fe09df667f6274c9.mockapi.io/category";
+let url1 = "https://675c0e98fe09df667f6274c9.mockapi.io/products";
 
 export const useList = create((set, get) => ({
     data: [],
