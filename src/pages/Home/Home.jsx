@@ -43,7 +43,7 @@ const Home = () => {
         <SwiperSlide>
           <div
             className="rounded-[20px] md:h-[500px] flex w-[100%] h-[630px] text-[20px] md:text-[15px] bg-cover bg-center relative"
-            style={{ backgroundImage: "url('public/Swiper4.png')", backgroundRepeat: "no-repeat"}}
+            style={{ backgroundImage: "url('/Swiper4.png')", backgroundRepeat: "no-repeat"}}
             >
             <div className="w-1/2 ml-[50px] mt-[100px]">
               <h1 className="text-4xl md:text-xl font-bold text-black">
@@ -58,7 +58,7 @@ const Home = () => {
         <SwiperSlide>
           <div
             className="rounded-[20px] md:h-[500px] flex items-baseline w-[100%] h-[630px] text-[20px] md:text-[15px] bg-cover bg-center relative"
-            style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('public/Swiper1.jpg')", backgroundSize: "cover" }}
+            style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Swiper1.jpg')", backgroundSize: "cover" }}
             >
             <div className="w-1/2 md:w-[70%] ml-[50px] mt-[100px] p-[15px]">
               <h1 className="text-4xl md:text-xl font-bold text-white ">
@@ -73,7 +73,7 @@ const Home = () => {
         <SwiperSlide>
           <div
             className="rounded-[20px] flex items-baseline md:h-[500px] w-[100%] h-[630px] text-[20px] md:text-[13px] bg-cover bg-center relative"
-            style={{ backgroundImage: "url('public/Swiper3.jpg')", backgroundSize: "cover" }}
+            style={{ backgroundImage: "url('/Swiper3.jpg')", backgroundSize: "cover" }}
           >
             <div className="w-1/2 md:w-[70%] ml-[50px] mt-[100px] bg-black p-[15px] bg-opacity-65 rounded-[10px]">
               <h1 className="text-4xl md:text-xl font-bold text-blue-400 ">
@@ -87,7 +87,7 @@ const Home = () => {
           <div
             className="rounded-[20px] flex items-baseline md:h-[500px] w-[100%] h-[630px] text-[20px] md:text-[15px] bg-cover bg-center relative"
             style={{
-              backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('public/Swiper2.jpg')",
+              backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Swiper2.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center"
             }}        
