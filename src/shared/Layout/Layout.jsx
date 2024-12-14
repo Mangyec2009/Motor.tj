@@ -21,7 +21,7 @@ const Layout = () => {
   <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
     <header className="max-w-[1280px]  m-auto py-[20px] px-[10px] flex items-center justify-between ">
       <div className="flex items-center gap-[30px]">
-        <Link to={"/"}><img src="public/logo.png" className="w-[150px] md:relative md:z-10 md:w-[300px] md:scale-150 md:left-3" /></Link>
+        <Link to={"/"}><img src="/logo.png" className="w-[150px] md:relative md:z-10 md:w-[300px] md:scale-150 md:left-3" /></Link>
           <div className="sm:hidden">
             <SearchBar  />
           </div>
