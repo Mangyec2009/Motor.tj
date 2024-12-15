@@ -9,7 +9,11 @@
         "7": "All Products",
         "footer": "All rights reserved.",
         "plus": "Our Plus Points",
-        "tst": "Item added to cart!"
+        "tst": "Item added to cart!",
+        "dark": "Dark",
+        "light": "Light",
+        "sys": "System",
+        "sr": "To-search"
     },
     "About": {
         "1": "About Us",

@@ -7,11 +7,13 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { useTheme } from "@/components/theme-provider"
+import { useTheme } from "@/components/theme-provider";
+import "@/i18n";
+import { useTranslation } from "react-i18next";
 
 export function ModeToggle() {
   const { setTheme } = useTheme()
-
+  const {t, i18n} = useTranslation();
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -23,13 +25,14 @@ export function ModeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-card-Primary_outlined dark:bg-card-primary">
         <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
+          {/* Light */}
+          {t("Example.light")}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
+          {t("Example.dark")}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("system")}>
-          System
+          {t("Example.sys")}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

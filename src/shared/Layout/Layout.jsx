@@ -17,6 +17,12 @@ const Layout = () => {
       i18n.changeLanguage(lang);
   }
   let {setLang} = useList();
+  if(!localStorage.getItem("i18nextLng")){
+    TranslateClick("ru");
+  }
+  if(!localStorage.getItem("lang")){
+    setLang("ru");
+  }
   return <>
   <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
     <header className="max-w-[1280px]  m-auto py-[20px] px-[10px] flex items-center justify-between ">
@@ -48,9 +54,9 @@ const Layout = () => {
           <div className="dark:text-blue-400">
             <LanguageIcon />
           </div>
-          <select className='dark:bg-black ' onChange={(e) => {TranslateClick(e.target.value), setLang(e.target.value)}} value={i18n.language}>
-            <option value="en">English</option>
+          <select className='dark:bg-black ' onChange={(e) => {TranslateClick(e.target.value), setLang(e.target.value)}} value={localStorage.getItem("i18nextLng")}>
             <option value="ru">Русский</option>
+            <option value="en">English</option>
             <option value="tj">Тоҷики</option>
           </select>
         </div>

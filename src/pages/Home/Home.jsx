@@ -171,7 +171,7 @@ const Home = () => {
             className="w-full h-[200px] object-cover"
           />
           <div className="p-[10px]">
-            <h3 className="text-lg font-semibold text-gray-800">
+            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
               {el.name[lang]?.length <= 13 ? el.name[lang] : el.name[lang]?.slice(0, 13) + "..."}
             </h3>
             <p className="text-sm text-gray-600">
