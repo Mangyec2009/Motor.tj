@@ -13,7 +13,8 @@
         "dark": "Dark",
         "light": "Light",
         "sys": "System",
-        "sr": "To-search"
+        "sr": "To-search",
+        "total": "Total"
     },
     "About": {
         "1": "About Us",

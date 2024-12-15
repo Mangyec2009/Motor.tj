@@ -2,8 +2,10 @@ import { useList } from '@/store/useList';
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from 'react-i18next';
 
 const Cart = () => {
+  const {t} = useTranslation();
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -59,7 +61,7 @@ const Cart = () => {
 
           <div className="mt-4 text-right">
             <h2 className="text-xl font-bold text-gray-800">
-              Total: {getTotalPrice().toFixed(2)} Sm
+              {t("Example.total")}: {getTotalPrice().toFixed(2)} Sm
             </h2>
           </div>
         </>

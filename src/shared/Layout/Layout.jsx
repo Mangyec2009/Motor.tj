@@ -13,6 +13,7 @@ import "@/i18n";
 
 const Layout = () => {
   const {t, i18n} = useTranslation();
+  const { carts, setCarts } = useList();
   function TranslateClick(lang) {
       i18n.changeLanguage(lang);
   }
@@ -46,7 +47,7 @@ const Layout = () => {
             <h1 className="md:hidden">{t('Example.about')}</h1>
           </Link>
           <div className='md:hidden'>
-            <Link to={"/cart"}>
+            <Link onClick={() => {setCarts(JSON.parse(localStorage.getItem("cart")))}} to={"/cart"}>
               <ShoppingCartIcon />
             </Link>
           </div>

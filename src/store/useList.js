@@ -45,7 +45,8 @@ export const useList = create((set, get) => ({
     },
     search: "",
     setSearch: (value) => set((state) => ({search:value})),
-   carts: JSON.parse(localStorage.getItem("cart")) || [],  
+    carts: JSON.parse(localStorage.getItem("cart")) || [],  
+    setCarts: (value) => set((state) => ({carts:value})),
     plusCart: (id) => {
         let carts = get().carts;
         let inc = carts.map((oldElem) => {
