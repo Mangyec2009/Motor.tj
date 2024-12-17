@@ -26,10 +26,12 @@ const Layout = () => {
   }
   return <>
   <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-    <header className="max-w-[1280px]  m-auto py-[20px] px-[10px] flex items-center justify-between ">
-      <div className="flex items-center gap-[30px]">
-        <Link to={"/"}><img src="/logo.png" className="w-[150px] md:relative md:z-10 md:w-[300px] md:scale-150 md:left-3" /></Link>
-          <div className="sm:hidden">
+    <header className="max-w-[1280px] m-auto py-[20px]  px-[10px] flex items-center justify-between ">
+      <div className="w-[40%] flex items-center gap-[30px]">
+        <Link to={"/"}>
+           <img src="/logo.png" className="w-[50%] sm:w-[150px]" />
+        </Link>
+          <div className="md:hidden">
             <SearchBar  />
           </div>
       </div>
